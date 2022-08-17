@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./client",
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "strict": true
+  },
+  "include": ["src/client"],
+  "exclude": ["node_modules"]
+}

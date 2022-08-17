@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "./server",
+    "lib": ["ES2019", "DOM"],
+    "target": "ES2019",
+    "module": "commonjs",
+    "declaration": true,
+    "esModuleInterop": true,
+    "strict": true
+  },
+  "include": ["src/server"],
+  "exclude": ["node_modules"]
+}

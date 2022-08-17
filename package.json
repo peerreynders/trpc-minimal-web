@@ -1,0 +1,33 @@
+{
+  "name": "trpc-minimal",
+  "version": "0.0.0",
+  "description": "Minimal server/browser demo of a query",
+  "scripts": {
+    "start": "node ./server/index.js",
+    "build:server": "./node_modules/.bin/tsc --project tsconfig.server.json",
+    "build:client": "./node_modules/.bin/tsc --project tsconfig.json ; ./node_modules/.bin/rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peerreynders/trpc-minimal-web.git"
+  },
+  "keywords": [],
+  "author": "Peer Reynders",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peerreynders/trpc-minimal-web/issues"
+  },
+  "homepage": "https://github.com/peerreynders/trpc-minimal-web#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@types/node": "^18.7.6",
+    "rollup": "^2.78.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@trpc/client": "^9.27.0",
+    "@trpc/server": "^9.27.0",
+    "zod": "^3.18.0"
+  }
+}
